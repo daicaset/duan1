@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFDE8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="#3F8BC6"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn bàn"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:id="@+id/edSoBan"
+            android:hint="Nhập số bàn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rdg_ban"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RadioButton
+                android:checked="true"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:textSize="17dp"
+                android:id="@+id/rdb_chuasudung"
+                android:layout_marginLeft="30dp"
+                android:text="Chưa sử dụng"
+                android:layout_width="150dp"
+                android:layout_height="50dp"/>
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/rdb_dasudung"
+                android:text="Đã sử dụng"
+                android:layout_width="150dp"
+                android:layout_height="50dp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <Spinner
+
+        android:id="@+id/spinnerPhong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnSaveBan"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Lưu"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnCancelBan"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Hủy"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

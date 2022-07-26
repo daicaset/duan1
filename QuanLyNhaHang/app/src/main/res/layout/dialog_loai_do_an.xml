@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFDE8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:background="#F44336"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn loại đồ ăn"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"/>
+
+
+    <RadioGroup
+        android:layout_marginLeft="20dp"
+        android:id="@+id/rdg_loai_do_an"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rdb_doan_nhanh"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Đồ ăn nhanh"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdb_doan_chebien"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Đồ ăn chế biến"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+        <RadioButton
+            android:id="@+id/rdb_banh"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Bánh"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+
+
+    </RadioGroup>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnSaveLoaiDA"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Lưu"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnCancelLoaiDA"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Hủy"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

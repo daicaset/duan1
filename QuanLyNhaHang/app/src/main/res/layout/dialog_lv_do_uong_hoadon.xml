@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="500dp" android:layout_width="match_parent" android:id="@+id/lv_DoUong_HD"/>
+
+    <Button android:layout_height="50dp" android:layout_width="80dp" android:id="@+id/btncanle" android:backgroundTint="@color/teal_200" android:layout_gravity="right" android:text="XONG"/>
+
+</LinearLayout>

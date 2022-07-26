@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.google.android.material.card.MaterialCardView android:layout_height="wrap_content" android:layout_width="match_parent" app:cardElevation="2dp" app:cardCornerRadius="8dp" android:longClickable="true" android:focusable="true" android:clickable="true" android:layout_margin="5dp" android:layout_gravity="center_horizontal" android:id="@+id/adapterCardView">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="10dp">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="200dp" android:id="@+id/tvMaHoaDon" android:text="Mã phiếu " android:alpha="0.6"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvXoa" android:text="xoas" android:textSize="20dp" android:gravity="right"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvphong" android:text="Phòng" android:textSize="18sp" android:textStyle="bold" android:textColor="#07770C" android:layout_marginTop="2dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvban" android:text="Bàn" android:textSize="18sp" android:textStyle="bold" android:textColor="#07770C" android:layout_marginTop="2dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvTenKH" android:text="Tên Khach Hàng" android:textSize="18sp" android:textStyle="bold" android:textColor="#07770C" android:layout_marginTop="2dp"/>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="70dp" android:layout_width="350dp" android:id="@+id/tvTenDA" android:textSize="18sp" android:textColor="#3E1E7E" android:layout_marginTop="2dp" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvSoLuongDA" android:text="sl" android:textSize="25dp" android:layout_weight="2.4"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="70dp" android:layout_width="350dp" android:id="@+id/tvDU" android:textSize="18sp" android:textColor="#3E1E7E" android:layout_marginTop="2dp" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvSoLuongDU" android:text="sl" android:textSize="25dp" android:layout_weight="1"/>
+
+    <TextView android:layout_height="50dp" android:layout_width="200dp" android:id="@+id/tvSizeDU" android:text="Size" android:textSize="18sp" android:layout_weight="1"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="30dp" android:layout_width="200dp" android:id="@+id/tvNgay" android:text="Ngày " android:textColor="@color/black" android:layout_marginTop="2dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvGia" android:text="Tổng Tiền : " android:textSize="20dp" android:textColor="@color/black" android:layout_marginTop="2dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

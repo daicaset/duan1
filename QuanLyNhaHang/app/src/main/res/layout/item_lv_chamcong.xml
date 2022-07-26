@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#F1FFF9"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                android:text="Ngày: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                />
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:text="Tên NV: "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                />
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:text="Ca làm: "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                />
+            <TextView
+                android:layout_marginBottom="3dp"
+
+                android:text="Bắt đầu : "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                />
+            <TextView
+                android:text="Kết thúc :  "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="110dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FF1100"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:id="@+id/tvNgayCong"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:id="@+id/tvTenNV"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#182985"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:id="@+id/tvCaLam"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:id="@+id/tvGioBatDau"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:id="@+id/tvGioKetThuc"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

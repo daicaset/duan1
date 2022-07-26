@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FAFEFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày*" />
+
+    <EditText
+        android:id="@+id/edNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên*" />
+
+
+    <Spinner
+        android:id="@+id/spinnerHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ca làm việc*" />
+
+    <RadioGroup
+        android:id="@+id/rdg_ca_lam_viec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rdb_sang"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sáng"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdb_chieu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Chiều"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdb_toi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tối"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ bắt đầu*" />
+
+    <EditText
+        android:id="@+id/ed_gio_batdau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ kết thúc*" />
+
+    <EditText
+        android:id="@+id/ed_gio_ketthuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginRight="80dp"
+            android:textSize="20dp"
+            android:id="@+id/btnHuy"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Hủy" />
+
+        <Button
+            android:backgroundTint="@color/purple_700"
+            android:textSize="20dp"
+            android:id="@+id/btnLuu"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Lưu" />
+    </LinearLayout>
+</LinearLayout>

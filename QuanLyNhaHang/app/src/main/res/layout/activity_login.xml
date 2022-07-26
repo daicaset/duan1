@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhlogin1"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ft_logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+
+    <EditText
+    android:id="@+id/edUserName"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@drawable/custom_edittext_login"
+    android:drawableStart="@drawable/bg_icon_username_login"
+    android:drawablePadding="8dp"
+    android:hint="Tên Đăng Nhập"
+    android:paddingStart="16dp"
+    android:textColor="@color/black"
+    android:textColorHint="#9C9A9A"
+    />
+    <EditText
+        android:id="@+id/edPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_edittext_login"
+        android:drawableStart="@drawable/custom_icon_passworld_login"
+        android:drawablePadding="8dp"
+        android:hint="Mật Khẩu"
+        android:paddingStart="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#9C9A9A"
+        android:layout_marginTop="26dp"
+        android:inputType="textPassword"
+
+        />
+
+
+    <CheckBox
+        android:textSize="19dp"
+        android:id="@+id/chkRememberPass"
+        android:layout_marginBottom="20dp"
+        android:text="Lưu mật khẩu"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_btn_dangnhap"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Huỷ"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_btn_huy"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

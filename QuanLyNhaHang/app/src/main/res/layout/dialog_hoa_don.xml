@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:background="#A9F1D2" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Nhập Ngày Thanh Toán"
+        android:id="@+id/edngayHD"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/spinnerMaKH"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/spinnerPhong"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/spinnerBan"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnchonDoAn"
+        android:backgroundTint="#FF9800"
+        android:text="Chọn Đồ Ăn "
+        android:textSize="25dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Nhập Số Lượng Đồ Ăn"
+        android:id="@+id/edSoLuongDAHD"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnchonDoUong"
+        android:backgroundTint="#FF9800"
+        android:text="Chọn Đồ Uống "
+        android:textSize="25dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Nhập Số Lượng Đồ Uống"
+        android:id="@+id/edSoLuongDUHD"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp">
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnSaveHoaDon"
+        android:backgroundTint="@color/purple_700"
+        android:text="Lưu" android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnCancelHoaDon"
+        android:backgroundTint="@color/purple_700"
+        android:text="Hủy" android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Mã  Bàn : "
+        android:id="@+id/tvMaBan"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tvSoban"
+        android:text="số bàn "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

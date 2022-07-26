@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFDE9"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#3F8BC6"
+        android:gravity="center"
+        android:text="Chọn phòng"
+        android:textColor="#FFEB3B"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_marginLeft="30dp"
+        android:id="@+id/rdg_phong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rdb_a"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Phòng A"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <RadioButton
+            android:id="@+id/rdb_b"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Phòng B"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+        <RadioButton
+            android:id="@+id/rdb_c"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Phòng C"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <RadioButton
+            android:id="@+id/rdb_d"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Phòng D"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnSavePhong"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Lưu"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btnCancelPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Hủy"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

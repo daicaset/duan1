@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:textSize="25dp" android:text="tên đồ Uống " android:id="@+id/tvTenDouong"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:textSize="25dp" android:text="Size đồ ăn " android:id="@+id/tvSizedouong"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="50dp" android:layout_marginRight="20dp" android:id="@+id/btnthemdouong" android:layout_gravity="right" android:src="@drawable/icon_doan"/>
+
+    <TextView android:layout_height="25dp" android:layout_width="match_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:textSize="20dp" android:id="@+id/tvhienthitrangthai" android:background="#F4E289"/>
+
+</LinearLayout>

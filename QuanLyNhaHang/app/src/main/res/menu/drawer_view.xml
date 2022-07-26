@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item android:title="Quản lý">
+            <menu
+                >
+                <item
+                    android:id="@+id/nav_ThucDon"
+                    android:title="Thực đơn"
+                    android:icon="@drawable/icon_menu"
+                    />
+                <item
+                    android:id="@+id/nav_HoaDon"
+                    android:title="Hóa đơn"
+                    android:icon="@drawable/icon_hoadonn"
+                    />
+
+                <item
+                    android:id="@+id/nav_Phong"
+                    android:title="Phòng"
+                    android:icon="@drawable/icon_phong"
+                    />
+                <item
+                    android:id="@+id/nav_Ban"
+                    android:title="Bàn"
+                    android:icon="@drawable/icon_bann"
+                    />
+                <item
+                    android:id="@+id/nav_LoaiDoUong"
+                    android:title="Loại đồ uống"
+                    android:icon="@drawable/icon_loai"
+                    />
+
+                <item
+                    android:id="@+id/nav_DoUong"
+                    android:title="Đồ uống"
+                    android:icon="@drawable/icon_douong"
+                    />
+
+                <item
+                    android:id="@+id/nav_LoaiDoAn"
+                    android:title="Loại đồ ăn"
+                    android:icon="@drawable/icon_loai"
+                    />
+
+                <item
+                    android:id="@+id/nav_DoAn"
+                    android:title="Đồ ăn"
+                    android:icon="@drawable/icon_doan"
+                    />
+
+                <item
+                    android:id="@+id/nav_KhachHang"
+                    android:title="Khách hàng"
+                    android:icon="@drawable/icon_khachhang"
+                    />
+            </menu>
+        </item>
+
+
+
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/sub_Top"
+                    android:title="Sản phẩm bán chạy"
+                    android:icon="@drawable/icon_top"
+                    />
+                <item
+                    android:id="@+id/sub_DoanhThu"
+                    android:title="Doanh thu"
+                    android:icon="@drawable/icon_doanhthu"
+                    />
+            </menu>
+        </item>
+
+        <item android:title="Chấm công">
+            <menu>
+                <item
+                    android:id="@+id/sub_DS_ChamCong"
+                    android:title="Chấm công nhân viên"
+                    android:icon="@drawable/icon_calendar"
+                    />
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu>
+
+                <item
+                    android:id="@+id/sub_DsNhanVien"
+                    android:icon="@drawable/dstv"
+                    android:title="Danh sách nhân viên"
+                    />
+                <item
+                    android:id="@+id/sub_AddNhanVien"
+                    android:visible="false"
+                    android:title="Thêm nhân viên"
+                    android:icon="@drawable/icon_themnv"
+                    />
+                <item
+                    android:id="@+id/sub_DoiMatKhau"
+                    android:icon="@drawable/key"
+                    android:title="Đổi mật khẩu"
+                    />
+                <item
+                    android:id="@+id/sub_DangXuat"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/icon_dangxuat"
+                    />
+            </menu>
+        </item>
+    </group>
+
+</menu>

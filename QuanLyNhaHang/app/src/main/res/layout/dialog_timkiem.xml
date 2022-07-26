@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFDE8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:background="#009688"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:textColor="#FFEB3B"
+        android:gravity="center"
+        android:text="TÌM KIẾM THEO MÃ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTimKiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btnTimKiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"
+        android:text="Tìm kiếm" />
+
+    <TextView
+        android:layout_marginBottom="35dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin" />
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginRight="40dp"
+            android:text="Họ tên :"
+            android:textSize="20dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="22dp"
+            android:id="@+id/tvHoTen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:text="Tài khoản :"
+            android:textSize="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvMaNhanVien"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="22dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:text="Mật khẩu :"
+            android:textSize="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="22dp"
+            android:id="@+id/tvMatKhau"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
